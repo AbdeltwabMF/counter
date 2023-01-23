@@ -49,8 +49,13 @@ Window {
                 counter++
             }
 
+            function reset() {
+                counter = 0
+            }
+
             focus: true
             Keys.onSpacePressed: increment()
+            Keys.onEscapePressed: reset()
 
             text: counter
         }

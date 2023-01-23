@@ -1,12 +1,15 @@
 # Counter
 
-GUI for a counter using QML
+GUI for a counter using QML.
+
+## Screenshot
 
 ![counter png](assets/counter.png)
 
 ## Usage
 
-**Press <Space> to increment the counter**
+- **Press \<Space\> to increment the counter**
+- **Press \<Esc\> to reset the counter**
 
 ## Development
 
